@@ -10,5 +10,4 @@ jobs:
       start: "yarn start"
       wait-on: "http://localhost:3000/"
       wait-on-timeout: 500 # seconds = 6 mins
-      config: 'baseUrl=http://localhost:3000'
       config-file: cypress.config.js
