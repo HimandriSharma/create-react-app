@@ -5,7 +5,7 @@ jobs:
     # use the reusable workflow to check out the code, install dependencies
     # and run the Cypress tests
     # https://github.com/bahmutov/cypress-workflows
-    uses: cypress-io/github-action@v4
+    uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
     with:
       start: "yarn start"
       wait-on: "http://localhost:3000/"
