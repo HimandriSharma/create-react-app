@@ -3,7 +3,7 @@ import React,{useEffect} from "react";
 const App = () => {
   const onKeyDown = (e) => {
     if(e.metaKey && e.which === 13) {
-      console.log("command + enter clicked");
+      console.log("command + enter clicked testing");
     }
   }
   
